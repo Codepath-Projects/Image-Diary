@@ -96,7 +96,7 @@ Users can take and save pictures in an online diary where they can write diary e
 ## Wireframes
 
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://i.imgur.com/KgIs5qZ.png" width=800>
 
 ### [BONUS] Digital Wireframes & Mockups
 
