@@ -27,20 +27,20 @@ Users can take and save pictures in an online diary where they can write diary e
 
 **Required Features**
 
--[] User can create a new account
--[] User can login
--[] User can take a picture
--[] User can create a new diary entry
--[X] User can view a list of their past diary entries
--[X] User can choose a picture from saved photos on their phone
+- [ ] User can create a new account
+- [ ] User can login
+- [ ] User can take a picture
+- [ ] User can create a new diary entry
+- [X] User can view a list of their past diary entries
+- [X] User can choose a picture from saved photos on their phone
 
 **Stretch Features**
 
--[] User can view past diary entries in a calendar view
--[] User can include audio/sounds in their diary entries
--[] User can use geolocation to see where they took their photos
--[] User can filter their diary entries by tags
--[] User can customize their diary (ex. colors).
+- [ ] User can view past diary entries in a calendar view
+- [ ] User can include audio/sounds in their diary entries
+- [ ] User can use geolocation to see where they took their photos
+- [ ] User can filter their diary entries by tags
+- [ ] User can customize their diary (ex. colors).
 
 ### 2. Screen Archetypes
 
