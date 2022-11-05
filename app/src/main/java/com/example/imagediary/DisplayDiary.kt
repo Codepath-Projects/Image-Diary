@@ -5,7 +5,7 @@ import java.util.*
 
 data class DisplayDiary(
     val title: String,
-    val date: String,
+    val date: String,  // TODO: FIX
     val description: String,
-    val photo_path: String?
+    val photo_path: String?  // TODO: FIX
 ) : java.io.Serializable

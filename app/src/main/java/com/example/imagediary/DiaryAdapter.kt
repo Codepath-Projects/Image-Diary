@@ -31,6 +31,7 @@ class DiaryAdapter(private val context: Context, private val diaries: List<Displ
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView),
         View.OnClickListener {
 
+        //TODO: Do the rest of the DiaryEntity
         private val titleTextView = itemView.findViewById<TextView>(R.id.titleView)
         private val dateTextView = itemView.findViewById<TextView>(R.id.dateView)
         private val photoImageView = itemView.findViewById<ImageView>(R.id.photoView)
