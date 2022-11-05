@@ -3,11 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/fhuan/AndroidStudioProjects/Image-Diary/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/fhuan/AndroidStudioProjects/Image-Diary/app/src/main/res/layout/item_diary.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/fhuan/AndroidStudioProjects/Image-Diary/app/src/main/res/layout/item_entry.xml" value="0.365625" />
         <entry key="..\:/Users/kiara/OneDrive/Documents/Codepath-Android-Course/ImageDiary/app/src/main/res/layout/activity_main.xml" value="0.21784420289855072" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
