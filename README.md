@@ -105,4 +105,5 @@ Users can take and save pictures in an online diary where they can write diary e
 ## GIFS (Work in Progress)
 ![sTgl9wE](https://user-images.githubusercontent.com/99567644/200097937-63dd2756-7e8f-4c85-a599-194ba6eb6635.gif)
 ![Imgur](https://github.com/Codepath-Projects/Image-Diary/blob/main/ezgif.com-gif-maker.gif)
+![LiceCap](https://github.com/Codepath-Projects/Image-Diary/blob/main/Group%20Project.gif)
 
