@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <!--  Reminder: Remove this after testing the new diary entry is added to the list view  -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/diaries"
         android:layout_width="409dp"
@@ -13,7 +14,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!--  Reminder: Remove this after testing the new diary entry is added to the list view  -->
     <Button
         android:id="@+id/add_entry"
         android:layout_width="138dp"

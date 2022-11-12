@@ -5,12 +5,19 @@
     android:layout_height="match_parent"
     tools:context=".Camera">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Camera Fragment"
-        android:textSize="25sp"
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@mipmap/ic_launcher"
         android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="137dp"
+        android:layout_height="77dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="230dp"
+        android:text="Select an image" />
 
 </FrameLayout>

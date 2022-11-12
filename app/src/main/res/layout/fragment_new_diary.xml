@@ -5,12 +5,59 @@
     android:layout_height="match_parent"
     tools:context=".NewDiary">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Diary Fragment"
-        android:textSize="25sp"
-        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/title_entry"
+        android:layout_width="320dp"
+        android:layout_height="79dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-100dp"
+        android:ems="10"
+        android:hint="Enter the title of this entry."
+        android:inputType="textPersonName"
+        android:text=""
+        android:textAlignment="center"
+        tools:text="Hello" />
+
+    <EditText
+        android:id="@+id/description_entry"
+        android:layout_width="320dp"
+        android:layout_height="63dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Write the description for this entry."
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        tools:text="" />
+
+    <EditText
+        android:id="@+id/date_entry"
+        android:layout_width="320dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-20dp"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="Format the date as MM/DD/YYYY"
+        android:text=""
+        android:textAlignment="center"
+        tools:text="12/01/2919" />
+
+    <Button
+        android:id="@+id/camera_button"
+        android:layout_width="224dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:text="Insert an image" />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="125dp"
+        android:layout_height="59dp"
+        android:text="Submit"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="230dp"/>
+
 
 </FrameLayout>
