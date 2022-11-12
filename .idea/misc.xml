@@ -3,20 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-<<<<<<< HEAD
+        <entry key="..\:/Users/fhuan/AndroidStudioProjects/Image-Diary-myver/app/src/main/res/layout/activity_detail.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/fhuan/AndroidStudioProjects/Image-Diary-myver/app/src/main/res/layout/activity_listview.xml" value="0.18697916666666667" />
+        <entry key="..\:/Users/fhuan/AndroidStudioProjects/Image-Diary-myver/app/src/main/res/layout/activity_main.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/fhuan/AndroidStudioProjects/Image-Diary-myver/app/src/main/res/layout/activity_new.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/fhuan/AndroidStudioProjects/Image-Diary-myver/app/src/main/res/layout/fragment_camera.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/fhuan/AndroidStudioProjects/Image-Diary-myver/app/src/main/res/layout/fragment_new_diary.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/fhuan/AndroidStudioProjects/Image-Diary-myver/app/src/main/res/layout/fragment_view_diary.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/fhuan/AndroidStudioProjects/Image-Diary-myver/app/src/main/res/layout/gallery.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/fhuan/AndroidStudioProjects/Image-Diary-myver/app/src/main/res/layout/item_diary.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/fhuan/AndroidStudioProjects/Image-Diary/app/src/main/res/layout/activity_detail.xml" value="0.365625" />
-=======
-        <entry key="..\:/Users/MToy/AndroidStudioProjects/Image-Diary/app/src/main/res/drawable/ic_baseline_photo_camera_24.xml" value="0.423" />
-        <entry key="..\:/Users/MToy/AndroidStudioProjects/Image-Diary/app/src/main/res/drawable/ic_baseline_view_list_24.xml" value="0.423" />
-        <entry key="..\:/Users/MToy/AndroidStudioProjects/Image-Diary/app/src/main/res/layout/activity_main.xml" value="0.4244791666666667" />
-        <entry key="..\:/Users/MToy/AndroidStudioProjects/Image-Diary/app/src/main/res/layout/activity_new.xml" value="0.4244791666666667" />
-        <entry key="..\:/Users/MToy/AndroidStudioProjects/Image-Diary/app/src/main/res/layout/fragment_camera.xml" value="0.4244791666666667" />
-        <entry key="..\:/Users/MToy/AndroidStudioProjects/Image-Diary/app/src/main/res/layout/fragment_new_diary.xml" value="0.4244791666666667" />
-        <entry key="..\:/Users/MToy/AndroidStudioProjects/Image-Diary/app/src/main/res/layout/fragment_view_diary.xml" value="0.4244791666666667" />
-        <entry key="..\:/Users/MToy/AndroidStudioProjects/Image-Diary/app/src/main/res/layout/gallery.xml" value="0.4244791666666667" />
-        <entry key="..\:/Users/MToy/AndroidStudioProjects/Image-Diary/app/src/main/res/layout/item_diary.xml" value="0.4244791666666667" />
-        <entry key="..\:/Users/MToy/AndroidStudioProjects/Image-Diary/app/src/main/res/menu/bottom_nav.xml" value="0.4244791666666667" />
->>>>>>> 7a8c719b7c65b10d96092340dc6597e9e3b1ab96
         <entry key="..\:/Users/fhuan/AndroidStudioProjects/Image-Diary/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/fhuan/AndroidStudioProjects/Image-Diary/app/src/main/res/layout/item_diary.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/fhuan/AndroidStudioProjects/Image-Diary/app/src/main/res/layout/item_entry.xml" value="0.365625" />
