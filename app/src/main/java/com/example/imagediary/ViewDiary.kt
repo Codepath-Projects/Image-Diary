@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
 /**
@@ -64,6 +65,17 @@ class ViewDiary : Fragment() {
             }
         }
     }
+
+    // Add a new diary entry to the database
+    private fun addEntry() {
+        lifecycleScope.launch(Dispatchers.IO) {
+            (activity?.applicationContext as DiaryApplication).db.diaryDao().insert(
+                DiaryEntity("Cute dog", "05/03/2020", "description.toString()", "image.org")
+            )
+        }
+    }
+
+
 
     companion object {
         fun newInstance(): ViewDiary {

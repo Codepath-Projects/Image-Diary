@@ -27,6 +27,7 @@ class DiaryListView : AppCompatActivity() {
         val diaryAdapter = DiaryAdapter(this, diaries)
         diariesRecyclerView.adapter = diaryAdapter
 
+        // Load the list of diary entries
         lifecycleScope.launch {
             (application as DiaryApplication).db.diaryDao().getAll().collect { databaseList ->
                 databaseList.map { entity ->

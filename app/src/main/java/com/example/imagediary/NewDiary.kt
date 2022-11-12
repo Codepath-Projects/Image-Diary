@@ -5,11 +5,14 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.EditText
+import android.widget.TextView
+import android.widget.Toast
+import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.setFragmentResult
+import androidx.fragment.app.setFragmentResultListener
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
 
 /**
  * A simple [Fragment] subclass.
@@ -17,43 +20,51 @@ private const val ARG_PARAM2 = "param2"
  * create an instance of this fragment.
  */
 class NewDiary : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
-        }
     }
+
+    private lateinit var title_entered: EditText
+    private lateinit var date_entered: EditText
+    private lateinit var description_entered: EditText
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_new_diary, container, false)
+        var view = inflater.inflate(R.layout.fragment_new_diary, container, false)
+
+        val submit = view.findViewById<Button>(R.id.submit_button)
+        val camera = view.findViewById<Button>(R.id.camera_button)
+
+        camera.setOnClickListener() {
+
+        }
+
+        submit.setOnClickListener() {
+            date_entered = view.findViewById<View>(R.id.date_entry) as EditText
+            title_entered = view.findViewById<View>(R.id.title_entry) as EditText
+            description_entered = view.findViewById<View>(R.id.description_entry) as EditText
+
+            // Check if the title and date are not empty. If it's empty, tell the user to write inputs for it.
+            // Otherwise, send the data back to the main activity
+            if (title_entered.getText().toString() == "") {
+                Toast.makeText(getActivity(), "Invalid: Enter a title", Toast.LENGTH_LONG).show()
+            } else if (date_entered.getText().toString() == "") {
+                Toast.makeText(getActivity(), "Invalid: Enter a date", Toast.LENGTH_LONG).show()
+            } else {
+                Toast.makeText(getActivity(), "Yay", Toast.LENGTH_LONG).show()
+            }
+        }
+
+        return view
     }
 
     companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment NewDiary.
-         */
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            NewDiary().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
-            }
+        fun newInstance(): NewDiary {
+            return NewDiary()
+        }
+
     }
 }
