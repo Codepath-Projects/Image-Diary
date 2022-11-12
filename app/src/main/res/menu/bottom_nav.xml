@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="View Diary"
+        android:id="@+id/diaryView"
+        android:icon="@drawable/ic_baseline_view_list_24"/>
+    <item android:title="Camera"
+        android:id="@+id/cameraView"
+        android:icon="@drawable/ic_baseline_photo_camera_24"/>
+    <item android:title="New Diary"
+        android:id="@+id/createView"
+        android:icon="@drawable/ic_baseline_post_add_24"/>
+</menu>

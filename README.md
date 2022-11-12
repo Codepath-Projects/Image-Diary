@@ -5,6 +5,7 @@
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
+1. [GIFS (Work in Progress)](#GIFS)
 
 ## Overview
 
@@ -27,21 +28,20 @@ Users can take and save pictures in an online diary where they can write diary e
 
 **Required Features**
 
-* User can create a new account
-* User can login
-* User can take a picture
-* User can create a new diary entry
-* User can view a list of their past diary entries
-
+- [ ] User can create a new account
+- [ ] User can login
+- [ ] User can take a picture
+- [ ] User can create a new diary entry
+- [X] User can view a list of their past diary entries
+- [X] User can choose a picture from saved photos on their phone
 
 **Stretch Features**
 
-* User can choose a picture from saved photos on their phone
-* User can view past diary entries in a calendar view
-* User can include audio/sounds in their diary entries
-* User can use geolocation to see where they took their photos
-* User can filter their diary entries by tags
-* User can customize their diary (ex. colors).
+- [ ] User can view past diary entries in a calendar view
+- [ ] User can include audio/sounds in their diary entries
+- [ ] User can use geolocation to see where they took their photos
+- [ ] User can filter their diary entries by tags
+- [ ] User can customize their diary (ex. colors).
 
 ### 2. Screen Archetypes
 
@@ -101,3 +101,10 @@ Users can take and save pictures in an online diary where they can write diary e
 ### [BONUS] Digital Wireframes & Mockups
 
 ### [BONUS] Interactive Prototype
+
+## GIFS (Work in Progress)
+![jZXc0BB](https://user-images.githubusercontent.com/99567644/200136218-7acc678a-209e-4179-81b9-60ba733686d2.gif)
+![Imgur](https://github.com/Codepath-Projects/Image-Diary/blob/main/ezgif.com-gif-maker.gif)
+![LiceCap](https://github.com/Codepath-Projects/Image-Diary/blob/main/Group%20Project.gif)
+![ScreenToGif](https://github.com/Codepath-Projects/Image-Diary/blob/main/tabnav.gif)
+

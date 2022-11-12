@@ -5,6 +5,7 @@ import android.app.PendingIntent.getActivity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+<<<<<<< HEAD
 import android.util.Log
 import android.widget.Button
 import android.widget.Toast
@@ -12,6 +13,14 @@ import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.*
+=======
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.lifecycleScope
+import androidx.recyclerview.widget.DividerItemDecoration
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.example.imagediary.databinding.ActivityMainBinding
+>>>>>>> 7a8c719b7c65b10d96092340dc6597e9e3b1ab96
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.text.SimpleDateFormat
@@ -22,7 +31,7 @@ import java.util.*
 class MainActivity : AppCompatActivity() {
     private val diaries = mutableListOf<DisplayDiary>()
     private lateinit var diariesRecyclerView: RecyclerView
-
+    private lateinit var binding : ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -93,10 +102,36 @@ class MainActivity : AppCompatActivity() {
             editActivityResultLauncher.launch(intent)
         }
 
+<<<<<<< HEAD
         // TODO: Get rid of this once you are done testing the app
 //        lifecycleScope.launch(Dispatchers.IO) {
 //            (application as DiaryApplication).db.diaryDao().deleteAll()
 //        }
+=======
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        replaceFragment(ViewDiary())
 
+        binding.bottomNavigationView.setOnItemSelectedListener {
+            when(it.itemId) {
+
+                R.id.diaryView -> replaceFragment(ViewDiary())
+                R.id.cameraView -> replaceFragment(Camera())
+                R.id.createView -> replaceFragment(NewDiary())
+
+                else -> {
+
+                }
+            }
+            true
+        }
+>>>>>>> 7a8c719b7c65b10d96092340dc6597e9e3b1ab96
+
+    }
+    private fun replaceFragment(fragment : Fragment){
+        val fragmentManager = supportFragmentManager
+        val fragmentTransaction = fragmentManager.beginTransaction()
+        fragmentTransaction.replace(R.id.frame_layout,fragment)
+        fragmentTransaction.commit()
     }
 }
