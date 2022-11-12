@@ -28,10 +28,8 @@ Users can take and save pictures in an online diary where they can write diary e
 
 **Required Features**
 
-- [ ] User can create a new account
-- [ ] User can login
 - [ ] User can take a picture
-- [ ] User can create a new diary entry
+- [X] User can create a new diary entry
 - [X] User can view a list of their past diary entries
 - [X] User can choose a picture from saved photos on their phone
 
@@ -107,4 +105,6 @@ Users can take and save pictures in an online diary where they can write diary e
 ![Imgur](https://github.com/Codepath-Projects/Image-Diary/blob/main/ezgif.com-gif-maker.gif)
 ![LiceCap](https://github.com/Codepath-Projects/Image-Diary/blob/main/Group%20Project.gif)
 ![ScreenToGif](https://github.com/Codepath-Projects/Image-Diary/blob/main/tabnav.gif)
+![Axp4zJ4](https://user-images.githubusercontent.com/99567644/201454756-54a48c5e-9065-4c5b-af42-37c722f5ea11.gif)
+
 
